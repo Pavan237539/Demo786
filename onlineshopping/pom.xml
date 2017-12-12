@@ -40,9 +40,12 @@
 				</configuration>
 			</plugin>
 
+			<plugin>
+				<groupId>org.apache.tomcat.maven</groupId>
+				<artifactId>tomcat-compiler-plugin</artifactId>
+				<version>7.0</version>
+			</plugin>
 		</plugins>
-
-
 		<finalName>onlineshopping</finalName>
 	</build>
 </project>
